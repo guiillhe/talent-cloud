@@ -6,4 +6,4 @@
 * Planos R$ - Versões - Individuais - grupos
 * Artigos
 * Metodologia
-* Dicas de estudos
+* Dicas de estudos 
