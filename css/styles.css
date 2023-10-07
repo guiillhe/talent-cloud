@@ -17,6 +17,7 @@
 body{
     background-color: var(--bs-black);
     color: var(--bs-white);
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
