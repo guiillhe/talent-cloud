@@ -4,9 +4,6 @@
 ### As 5 telas com descrição básica ficou
 * Home
 * Planos R$ - Versões - Individuais - grupos
-* Artigos
+* Dicas
 * Metodologia
-* Dicas de estudos 
-* teste 
-
-Definindo páginas HTML
+* Contato
