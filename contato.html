@@ -7,18 +7,26 @@
         <title>Fale Conosco!</title>
     </head>
     <body>
-
+        
         <div class="container">
+            <img src="/projeto/talent-cloud/img/contato.svg" width="50px">
             <h1>Contato</h1>
             <form action="" method="post">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <input type="text" class="form-control" id="nome" name="nome" required>
     
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" class="form-control" id="email" name="email" required>
     
                 <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone">
+                <input type="tel" class="form-control" id="telefone" name="telefone" required>
+
+                <label for="plano">Plano</label>
+                <select name="" id="plano" class="form-select" placeholder=" " required>
+                    <option value="">Plano 1</option>
+                    <option value="">Plano 2</option>
+                    <option value="">Plano 3</option>
+                </select>
     
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
