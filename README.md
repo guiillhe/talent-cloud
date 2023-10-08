@@ -8,3 +8,4 @@
 * Metodologia
 * Dicas de estudos 
 * teste 
+** Organizado o código, feito limpeza de dados extras, deixado apenas metologia.html
