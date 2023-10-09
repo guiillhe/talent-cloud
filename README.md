@@ -4,7 +4,7 @@
 ### As 5 telas com descrição básica ficou
 * Home
 * Planos R$ - Versões - Individuais - grupos
-* Artigos
+* Artigos teste
 * Metodologia
 * Dicas de estudos 
 * teste 
