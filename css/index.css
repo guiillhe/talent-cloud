@@ -23,3 +23,6 @@ a{
     text-decoration: none;
     color: var(--font-dark-color);
 }
+div{
+    background-color:var(--bs-yellow);
+}
