@@ -5,7 +5,7 @@
     --main-color: #43256f;
     --main-light-color: #644491;
     --bs-yellow: #fcb12f;
-    --bs-yellow-2: #ee9600;
+    --bs-yellow-2: #ee9600;   
     
 
 }
@@ -15,14 +15,32 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--bs-black);
-    color: var(--bs-white);
+    background-color: var(--bs-white);
+    color: var(--bs-black);
 }
-
 a{
     text-decoration: none;
     color: var(--font-dark-color);
 }
-div{
-    background-color:var(--bs-yellow);
+div .livro{
+    position: absolute;
+    width: 115em;
+    height:auto;    
+    margin-top: -23.5%;
+    padding:3em;    
+    left: -49.5%;
 }
+div .english{
+    position: absolute;
+    width: 100em;
+    height:auto;
+    margin-top: -23.5%;
+    left: -15%;
+}
+div .imagens{
+    margin-top: 0%;
+    width: 35em;
+    height:30em;
+}
+
+
