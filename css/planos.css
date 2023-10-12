@@ -1,0 +1,86 @@
+:root{
+    --bs-white: #fff;
+    --bs-black: #000;
+    --bs-gray: #ccc;
+    --main-color: #43256f;
+    --main-light-color: #644491;
+    --bs-yellow: #fcb12f;
+    --bs-yellow-2: #ee9600;
+    
+
+}
+.individual{
+    background-color: var(--main-light-color);
+    color:var(--bs-yellow-2) ;
+   
+}
+.div-individual{
+    display: flex;
+    justify-content: center;
+    width: autos;
+    height: 20em;
+    background-color: var(--bs-yellow);
+    border : 4px solid var(--main-color);
+}
+.grupo{
+    background-color: var(--main-light-color);
+    color:var(--bs-yellow-2) ;
+}
+.div-grupo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 20em;
+    background-color: var(--bs-yellow);
+    border : 4px solid var(--main-color);
+}
+.vip{
+    background-color: var(--main-light-color);
+    color:var(--bs-yellow-2) ;
+}
+.div-vip{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 20em;
+    background-color: var(--bs-yellow);
+    border : 4px solid var(--main-color);
+}
+.button-individual{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bs-yellow); 
+    color: var(--main-color);
+}
+.button-grupo{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bs-yellow); 
+    color: var(--main-color);
+}
+.button-vip{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bs-yellow); 
+    color: var(--main-color);
+}
+.planos{
+    display: flex;
+    justify-content: center;
+}
+.aulas{
+    display: flex;
+    justify-content: center;
+}
+.div-button-individual{
+    display: flex;
+    justify-content: center;
+}
+.div-button-grupo{
+    display: flex;
+    justify-content: center;
+}
+.div-button-vip{
+    display: flex;
+    justify-content: center;
+}
