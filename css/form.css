@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #43256f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #644491;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0f0f0f;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select[id="plano"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #8c65c4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ee9600;
+}

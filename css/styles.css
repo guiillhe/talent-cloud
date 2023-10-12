@@ -15,8 +15,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--bs-black);
+    background-color: var(--main-color);
     color: var(--bs-white);
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
