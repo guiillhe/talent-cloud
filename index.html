@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PzClou English School</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="assets/pzcloud.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>        
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/dicas.css">    
+        <title>Home </title>
+    </head>
 <body>
     <header>
-        <nav>            
-            <ul class="icones-nav">
-                <li class="icones-nav-li"><a href="index.html">HOME</a></li>             
-                <li class="icones-nav-li"><a href="planos.html">PLANOS</a></li>             
-                <li class="icones-nav-li"><a href="dicas.html">DICAS</a></li>                 
-                <li class="icones-nav-li"><a href="metodologia.html">METODOLOGIA</a></li>         
-                <li class="icones-nav-li"><a href="contato.html">CONTATO</a></li>
-            </ul>   
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center"><i class="bi bi-rocket-takeoff-fill fs-2 me-2"></i>English Course</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="menuBar">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-link ms-auto">Home</a>
+                        <a href="metodologia.html" class="nav-link ms-auto">Metodologia</a>
+                        <a href="planos.html" class="nav-link ms-auto">Planos</a>
+                        <a href="dicas.html" class="nav-link ms-auto">Dicas</a>
+                        <a href="contato.html" class="nav-link ms-auto">Contato</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <p><br><br><br></p>
-    <div class="index">
-        <p><br></p>        
-        <h1 class="titulo-page">PzCloud English <br>School</h1>        
-        <p class="texto-page">Explore novos horizontes no mundo da língua
-           <br> inglesa conosco. Nossas aulas dinâmicas e
-            <br>interativas proporcionam uma imersão envolvente,
-            <br>aprimorando suas habilidades de comunicação.
-            <br>Descubra o poder de se expressar com confiança
-            <br>e fluência no idioma inglês.
+    <div class="index">              
+        <h1 class="titulo-pagina-amarelo-2"><b>PzCloud English <br>School</b></h1>        
+            <p class="texto-page-amarelo">Explore novos horizontes no mundo da língua
+            <br> inglesa conosco. Nossas aulas dinâmicas e
+                <br>interativas proporcionam uma imersão envolvente,
+                <br>aprimorando suas habilidades de comunicação.
+                <br>Descubra o poder de se expressar com confiança
+                <br>e fluência no idioma inglês.                
             </p>
-            <img src="assets/pzimagen.jpeg.jpeg" class="principal" alt="Imagem Principal da English School">
-        
+    <div class="fundo-amarelo">
+        <div class="imagenshome">
+            <img src="assets/svg/home_sobre_livro_logo.svg" class="principal" alt="Imagem Principal da English School">
+        </div> 
+        <div class="imagenssecundaria">
+            <img src="assets/svg/home_livro_eng.svg" class="principal02"  alt="Imagem 02 Principal da English School">
+        </div>
     </div>
     <footer >
         <ul class="icones-redes-sociais">
             <li>
                 <a href="https://www.instagram.com/prozeducacaobr/">
-                    <img src="assets/instagran.jpg" alt="Instagran">
+                    <img src="assets/instagram.png" alt="Instagran">
                 </a>
             </li>
             <li>
@@ -48,15 +62,17 @@
             </li>
             <li>
                 <a href="https://twitter.com/ProZcom">
-                    <img src="assets/twiter.jpg" alt="Twitter">
+                    <img src="assets/twitter.png" alt="Twitter">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/school/prozeducacao/?originalSubdomain=br">
-                    <img src="assets/linkedin.jpg" alt="LinkedIn">
+                    <img src="assets/linkedin.png" alt="LinkedIn">
                 </a>
-            </li> 
-            
-    </footer>
+            </li>             
+    </footer> 
+         
+    </div>
+    
 </body>
 </html>

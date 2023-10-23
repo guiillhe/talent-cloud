@@ -1,46 +1,94 @@
-body{
-    background-color: rgb(75, 9, 122);
-}
-a {  
-    color: rgb(243, 231, 55);    
-
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
   }
-.titulo-page{
-    padding: 0.3em 1.59em;
-    color: rgb(245, 202, 10);     
+:root{
+    --bs-white: #fff;
+    --bs-black: #000;
+    --bs-gray: #ccc;
+    --main-color: #43256f;
+    --main-light-color: #644491;
+    --bs-yellow: #fcb12f;
+    --bs-yellow-2: #ee9600;    
+
 }
-.texto-page{
-    padding: 0.3em 2.5em;
-    color: rgb(245, 202, 10);
-    font-size: larger;
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.titulo-pagina-amarelo-2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    color:var(--bs-yellow-2);  
+    cursor: pointer; 
+  
+}
+.titulo-pagina-amarelo-2:hover{
+    text-decoration: underline;
+	color: var(--bs-gray); 
+    text-decoration: none;
+   
+    
+    
+}
+.texto-page-amarelo:hover{
+    text-decoration: underline;
+	color: var(--bs-white);
+    text-decoration: none;
+    opacity: 80%;
+}
+.texto-page-amarelo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+    margin-left: 2em;
+    color:var(--bs-yellow);
+    cursor: pointer;
+
+   
 }
 .principal{
-    width:890px ;
-    height:auto;    
-    padding: 0.3em 39.8em;
-    margin-top: -24%;  
+   display: flex;
+   justify-content: space-between;
+    margin-top: -13em;
+    margin-left: -13.5em;  
+    cursor: pointer;
+    
 }
- .icones-nav{
-    float: left; 
-    padding: 0.6em 11.1em;
-    border-radius: 30px 30px 30px;
-    background-color: rgb(29, 2, 48);  
-    list-style: none;  
-    margin: 0.2em  
-    }
-.icones-nav-li{
-    margin: 0em;
-    padding: 0.3em 4em;
+.principal02{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -9em;
+    margin-left: -79em; 
+    cursor: pointer;
 }
-.icones-redes-sociais, li{
-    float: left;
-    padding: 0em 1.6em; 
-    color: rgb(245, 202, 10);  
-    list-style: none;
-    margin-top: -1.5em;
+.fundo-amarelo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bs-yellow);
+    width: 500px;
+    height: 400px;
+    margin-left: 37.5em;
+    margin-top: -18.5em;
+    border-radius: 1%;
+    
 }
 .index{
-    border-style: groove;
-    border-color: rgb(245, 202, 10) ;
+    border: solid 0.5px var(--bs-yellow);
+    margin: 2.5%;
 }
 
+.icones-redes-sociais, li{
+    display: flex;
+    text-align: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 50px;
+    cursor:crosshair;
+}
