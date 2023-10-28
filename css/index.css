@@ -1,8 +1,4 @@
-@media only screen and (max-width: 480px) {
-    img {
-      width: 100%;
-    }
-  }
+
 :root{
     --bs-white: #fff;
     --bs-black: #000;
@@ -15,80 +11,71 @@
 }
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto; 
+    border: solid var(--bs-yellow);
+  
+
+}
 .titulo-pagina-amarelo-2 {
+    display: flex;
+    justify-content: flex-start;  
+    color:var(--bs-yellow-2);  
+    cursor: pointer; 
+    margin-top: 0.5em;
+    margin-left: 1em;  
+}
+
+
+.texto-page-amarelo-2{
     display: flex;
     justify-content: flex-start;
     margin-top: 1em;
-    margin-left: 1em;
     margin-bottom: 1em;
-    color:var(--bs-yellow-2);  
-    cursor: pointer; 
-  
-}
-.titulo-pagina-amarelo-2:hover{
-    text-decoration: underline;
-	color: var(--bs-gray); 
-    text-decoration: none;
-   
-    
-    
-}
-.texto-page-amarelo:hover{
-    text-decoration: underline;
-	color: var(--bs-white);
-    text-decoration: none;
-    opacity: 80%;
-}
-.texto-page-amarelo{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: auto;
-    margin-left: 2em;
+    margin-left:2.5em;
     color:var(--bs-yellow);
-    cursor: pointer;
-
-   
-}
-.principal{
-   display: flex;
-   justify-content: space-between;
-    margin-top: -13em;
-    margin-left: -13.5em;  
-    cursor: pointer;
     
 }
+
+
+.principal{
+   display: flex;  
+   justify-content: space-between;
+    margin-top: -13.5em;
+    margin-left: -16em;   
+
+    }
 .principal02{
-    display: flex;
-    justify-content: space-between;
-    margin-top: -9em;
-    margin-left: -79em; 
-    cursor: pointer;
+    display: flex;    
+    margin-top: -5em;
+    margin-left: -76.2em; 
+    margin-bottom: 35em;
+    margin-right: 5rem;
+
+    
+
 }
 .fundo-amarelo{
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    background-color: var(--bs-yellow);
-    width: 500px;
-    height: 400px;
-    margin-left: 37.5em;
-    margin-top: -18.5em;
+    background-color:var(--bs-yellow);
+    margin-left: 26.5em;
+    margin-top: -17.5em;
+    margin-bottom: -2em;
     border-radius: 1%;
-    
+    height:25em;
+    width:22.5em;    
 }
-.index{
-    border: solid 0.5px var(--bs-yellow);
-    margin: 2.5%;
-}
-
 .icones-redes-sociais, li{
     display: flex;
     text-align: flex-start;
     justify-content: flex-start;
     list-style: none;
-    gap: 50px;
-    cursor:crosshair;
+    gap: 25px;
+    margin-left: -0.5em;    
 }
