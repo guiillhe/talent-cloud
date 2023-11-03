@@ -41,6 +41,9 @@ main{
     color:var(--bs-yellow);
     
 }
+.texto-page-amarelo-2:hover{
+    color: #644491;
+}
 
 
 .principal{
@@ -54,12 +57,16 @@ main{
     display: flex;    
     margin-top: -5em;
     margin-left: -76.2em; 
-    margin-bottom: 35em;
-    margin-right: 5rem;
-
     
-
+    margin-right: -125rem;
+    
 }
+/*.principal02:hover{
+    background-color: #ee9600;
+}*/
+
+
+  
 .fundo-amarelo{
     display:flex;
     justify-content: space-between;
@@ -71,11 +78,20 @@ main{
     height:25em;
     width:22.5em;    
 }
+
+
 .icones-redes-sociais, li{
     display: flex;
     text-align: flex-start;
     justify-content: flex-start;
     list-style: none;
-    gap: 25px;
-    margin-left: -0.5em;    
+    gap: 5px;
+    margin-left: .4em;  
+    opacity: 85%;
+}
+
+.icones-redes-sociais:hover{
+    cursor: pointer;
+    filter: brightness(1050%);
+    
 }
