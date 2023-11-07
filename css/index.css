@@ -90,8 +90,25 @@ main{
     opacity: 85%;
 }
 
-.icones-redes-sociais:hover{
+/*.icones-redes-sociais:hover{
     cursor: pointer;
     filter: brightness(1050%);
     
+}*/
+.instagran:hover{
+    cursor: pointer;
+    filter: brightness(1050%);
+}
+.facebook:hover{
+    cursor: pointer;
+    filter: brightness(1050%);
+    
+}
+.twiter:hover{
+    cursor: pointer;
+    filter: brightness(1050%);
+}
+.linkedin:hover{
+    cursor: pointer;
+    filter: brightness(1050%);
 }
