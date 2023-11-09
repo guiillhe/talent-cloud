@@ -8,11 +8,24 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>        
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/dicas.css">    
+        <link rel="stylesheet" href="css/dicas.css">
+        <link rel="stylesheet" href="css/planos.css">  
         <title>Home </title>
     </head>
 <body>
     <header>
+        <div class="navegacao">
+            <nav>          
+                <ul class="icones-nav">
+                    <li class="icones-nav-li"><a href="index.html">HOME</a></li>             
+                    <li class="icones-nav-li"><a href="planos.html">PLANOS</a></li>             
+                    <li class="icones-nav-li"><a href="dicas.html">DICAS</a></li>                 
+                    <li class="icones-nav-li"><a href="metodologia.html">METODOLOGIA</a></li>         
+                    <li class="icones-nav-li"><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--
         <nav class="navbar navbar-dark navbar-expand-md">
             <div class="container">
                 <a href="#" class="navbar-brand d-flex align-items-center"><i class="bi bi-rocket-takeoff-fill fs-2 me-2"></i>Pz English School</a>
@@ -30,42 +43,46 @@
                 </div>
             </div>
         </nav>
+        -->
+   
     </header>
-    <section class="individual">
-            <div class="div-individual">
-                <img src="assets/svg/planos_individual.svg" class="individualImg" alt="Plano Individual">
-            </div>
-            <div>
-                <h2 class="planos">Plano Individual</h2>
-                <p class="aulas">Lições + Testes</p>        
-            </div>
-            <div class="div-button-individual">
-                <button><a href="contato.html" class="button-individual">Saiba Mais</a></button>
-            </div>
-   </section>
-   <section class="grupo">
-            <div class="div-grupo">
-                <img src="assets/svg/planos_grupo.svg" class="grupoImg" alt="Plano em Grupo">
-            </div>
-            <div>
-                <h2 class="planos">Plano em Grupo</h2>
-                <p class="aulas">Lições + Testes + Conversação</p>        
-            </div>
-            <div class="div-button-grupo">
-                <button><a href="contato.html" class="button-grupo">Saiba Mais</a></button>
-            </div>
-    </section>
-    <section class="vip">
-            <div class="div-vip">
-                <img src="assets/svg/planos_vip.svg" class="vipImg" alt="Plano Vip">
-            </div>
-            <div>
-                <h2 class="planos">Plano Vip</h2>
-                <p class="aulas">Aulas ao vivo com professor(a)</p>        
-            </div>
-            <div class="div-button-vip">
-                <button><a href="contato.html" class="button-vip">Saiba Mais</a></button>
-            </div>
-</section>
+    <main>
+        <section class="individual">
+                    <div class="div-individual">
+                        <img src="assets/svg/planos_individual.svg" class="Img" alt="Plano Individual">
+                    </div>
+                    <div>
+                        <h2 class="planos">Plano Individual</h2>
+                        <p class="aulas">Lições + Testes</p>        
+                    </div>
+                    <div class="div-button">
+                        <a href="./contato.html" class="button">SAIBA MAIS</a>
+                    </div>
+        </section>
+        <section class="grupo">
+                    <div class="div-grupo">
+                        <img src="assets/svg/planos_grupo.svg" class="Img" alt="Plano em Grupo">
+                    </div>
+                    <div>
+                        <h2 class="planos">Plano em Grupo</h2>
+                        <p class="aulas">Lições + Testes + Conversação</p>        
+                    </div>
+                    <div class="div-button">
+                        <a href="./contato.html" class="button">SAIBA MAIS</a>
+                    </div>
+            </section>
+            <section class="vip">
+                    <div class="div-vip">
+                        <img src="assets/svg/planos_vip.svg" class="Img" alt="Plano Vip">
+                    </div>
+                    <div>
+                        <h2 class="planos">Plano Vip</h2>
+                        <p class="aulas">Aulas ao vivo com professor(a)</p>        
+                    </div>
+                    <div class="div-button">
+                        <a href="./contato.html" class="button">SAIBA MAIS</a>
+                    </div>
+            </section>
+    </main>
 </body>
 </html>
