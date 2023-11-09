@@ -26,6 +26,7 @@ main{
 main:hover{
     background-color:var(--main-light-color);
     transition: 1.5s;
+    
 }
 
 .titulo-pagina-amarelo-2 {
