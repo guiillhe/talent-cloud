@@ -28,19 +28,11 @@ main{
 
     
 main:hover{   
-    border:solid var(--bs-gray);
-    
+    border:solid var(--bs-gray);  
     
     
 }
-main:hover::before{
-    content: 'Visite nossas Redes !';
-    margin-left: 3.5em;    
-    margin-right: -31em;
-    margin-top: 26em;
-    color:var(--bs-gray)
-   
-}
+
 
 .titulo-pagina-amarelo-2 {
     display: flex;
@@ -98,7 +90,7 @@ main:hover::before{
     background-color:var(--bs-yellow);
     margin-left: 36.5em;
     margin-top: -18.5em;
-    margin-bottom: -2em;
+    margin-bottom: 2em;
     border-radius: 1%;
     height:25em;
     width:22.5em;
@@ -137,4 +129,20 @@ main:hover::before{
     filter: brightness(1050%);
     transition: 1.1s;
     
+}
+.fst-italic{
+    color:var(--main-color);
+    font-size:32px;
+    opacity: 105%;
+    background-color: var(--bs-yellow);
+    border: solid var(--bs-yellow);
+    border-radius: 5px;
+}
+.fw-bolder{
+    color:var(--bs-yellow);
+    font-size:32px;
+    opacity: 105%;
+    background-color: var(--main-light-color);
+    border: solid var(--main-light-color);
+    border-radius: 5px;
 }
