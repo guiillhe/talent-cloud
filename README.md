@@ -11,4 +11,8 @@
 * teste 
 * Organizado o código, feito limpeza de dados extras, deixado apenas metologia.html
 
+<<<<<<< HEAD
 * dados do plano na  Branch home_pzcloud 
+=======
+* dados do plano na  Branch home_pzcloud 
+>>>>>>> main
