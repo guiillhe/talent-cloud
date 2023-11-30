@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --main-color: #43256f;
+    --bs-white: #ffffff;
+    --main-light-color: #644491;
+    --nav-bg-color: #58378C;
+    --bs-gray: #ccc;
+    --bt-bg-color: #8c65c4;
+    --bs-yellow-2: #ee9600;    
+}
+
+body{
+    background-color: var(--main-color);
+    color: var(--bs-white);
+    font-family: Arial, 'Roboto', sans-serif;
+    margin: 0;
+    padding: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content:center ;
+    align-items:center ;  
+    background-color: var(--nav-bg-color);
+    height: 6rem;  
+    padding: 0 2.4rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;    
+    color: var(--font-dark-color);
+}
+
+a:hover {
+    color: var(--bs-yellow-2);
+}
+
+.container {
+    margin: auto auto;
+    padding: 0 auto;    
+    background-color: var(--main-light-color);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--bs-white);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.container form{
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select[id="plano"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--bs-gray);
+    border-radius: 5px;
+    font-size: 14px;    
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: var(--bt-bg-color);
+    color: var(--bs-white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--bs-yellow-2);
+}
+
+.text-container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin-top: 150px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
