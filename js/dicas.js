@@ -20,7 +20,7 @@ const dicas = [
   function gerarHTMLDica(dica) {
     return `
       <div class="dica">
-        <img class="dica-img" src="/assets/svg/dicas.png" alt="lampada de ideia">
+        <img class="dica-img" src="assets/svg/dicas.png" alt="lampada de ideia">
         <h4>${dica.titulo}</h4>
         <p>${dica.texto}</p>
       </div>
