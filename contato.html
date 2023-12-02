@@ -36,7 +36,7 @@
                   <h1>Contato</h1>
               </div>
               
-              <form id="meuForm" method="post">
+              <form id="meuForm" method="post" novalidate>
   
                   <label for="nome">Nome:</label>
                   <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira seu nome completo" 
@@ -48,10 +48,11 @@
                   <label for="telefone">Telefone:</label>
                   <input type="tel" class="form-control" id="telefone" name="telefone" 
                   placeholder="Coloque seu telefone com o DDD, de preferência Whatsapp" 
-                  required pattern="[0-9] +" title="O campo deve conter apenas números.">
+                  >
   
                   <label for="plano">Plano</label>
-                      <select name="" id="plano" class="form-select" required>
+                      <select name="planos" id="plano" class="form-select" required>
+                          <option value="">Selecione um plano</option>
                           <option value="individual">Plano individual</option>
                           <option value="grupo">Plano em grupo</option>
                           <option value="vip" selected>Plano VIP</option>
@@ -59,14 +60,11 @@
   
                   <label for="mensagem">Mensagem:</label>
                   <textarea id="mensagem" name="mensagem" required placeholder="Insira sua mensagem aqui!"></textarea>
-                  <input type="submit"></button>              
+                  <input type="submit" value='Enviar'>            
               </form>              
           </div>
       </main>
-
       <footer>
-
-
       </footer>
 
     </body>
