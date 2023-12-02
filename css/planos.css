@@ -1,0 +1,93 @@
+:root{
+    --bs-white: #fff;
+    --bs-black: #000;
+    --bs-gray: #ccc;
+    --main-color: #43256f;
+    --main-light-color: #644491;
+    --bs-yellow: #fcb12f;
+    --bs-yellow-2: #ee9600;
+    
+
+}
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;   
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.principal{
+    margin-right: 0;
+    margin-top: 9rem;
+    display: flex;   
+}
+.plano{    
+    border-radius: 0.6rem;   
+    background-color: var(--main-light-color);
+    border-radius: 0.6rem;
+    width: 31.25rem;
+    padding: 3.12rem;
+    margin: 4rem;
+   
+}
+.div-plano{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 20rem;
+    background-color: var(--bs-yellow);
+    border : 0.25rem solid var(--main-color);
+    border-radius: 0.6rem;
+    margin: 0.3rem;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bs-yellow); 
+    color: var(--main-color);
+    border-radius: 35px;
+    margin: 0.62rem 2.5rem 0.62rem 2.5rem;
+    padding: 1rem;
+    font-size: 2rem;
+  
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    color: var(--bs-yellow);
+    font-size: 2.5rem;
+}
+.planos:hover{
+    color: var(--bs-white);
+}
+.aulas{
+    display: flex;
+    justify-content: center;
+    color: var(--bs-yellow);
+    font-size: 1.5rem;
+}
+
+.Img{
+    margin-top: -23rem;    
+    width: 400rem;
+    height: 65rem;
+}

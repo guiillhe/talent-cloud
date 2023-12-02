@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } 
 
-:root{
-    font-size: 62.5%;
+:root{    
     --main-color: #43256f;
     --bs-white: #ffffff;
     --main-light-color: #644491;
@@ -31,8 +30,7 @@ nav {
     align-items:center ;  
     background-color: var(--nav-bg-color);
     color: var(--nav-text-color);
-    height: 6rem;
-  
+    height: 6rem;  
     padding: 0 2.4rem;
 }
 
@@ -54,16 +52,17 @@ a:hover {
 }
 
 .container {
-    margin: auto auto;
-    padding: 100px;    
+
+    margin-top: 10rem;
+    padding: 7rem;    
     background-color: var(--main-light-color);
-    border-radius: 5px;    
+    border-radius: 0.3rem;    
 }
 
 h1 {
     text-align: center;
     color: var(--bs-white);
-    font-size: 60px;    
+    font-size: 3.8rem;    
 }
 
 img {
@@ -72,7 +71,7 @@ img {
 
 .content {
     display: flex;
-    justify-content:;
+    justify-content:center;
     align-items: center;
     position: relative;
     text-align: justify;
@@ -80,10 +79,10 @@ img {
 }
 
 .section1 h1 {
-    font-size: 60px;
+    font-size: 6rem;
 }
 
 .section1 h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 0.625rem;
 }
