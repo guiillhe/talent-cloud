@@ -1,48 +1,51 @@
-
-.quadro{
-    font-size: 100%;
+.quadro{    
     display: grid;
     grid-template-columns: 1fr 20rem;
-    margin: 5rem;
+    margin: 8rem;
     background-color:var(--main-light-color) ;
-    border-radius: 1rem;
+    border-radius: 1.6rem;
     position: relative;
-    margin-top: 10rem;
+    
 }
 .conteudo{
     display: flex;
     flex-direction: column;
-    margin: 2.5rem;
-    padding: 1rem;
+    margin: 4rem;
+    padding: 1.6rem;
 }
 
 #dicas{
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: 25%;
 }
 .dica{
-    flex-basis: calc(50% - 1rem);
+    flex-basis: calc(50% - 1.6rem);
     color: var(--bs-yellow);
     align-items: center;
     
 }
 .dica h4{
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
 }
 .dica p {
-    font-size: 1rem;
+    margin: 0, 0.8rem;
+    font-size: 1.6rem;
 }
 .yellow-card{
+    overflow: hidden;
     background-color: var(--bs-yellow);
-    border-radius: 5px;
-    padding: 1rem;    
-    width: 20rem;
-    height: 30rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);           
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-bottom: 2rem;
+    border-radius: 8px;
+    padding: 1.6rem;    
+    width: 32rem;
+    height: 48rem;
+    box-shadow: 0 3.2px 8px rgba(0, 0, 0, 0.1);           
+    margin: 3.2rem auto 3.2rem 72%;    
+    float: left;
+    position: absolute;
     
 }
 
@@ -51,27 +54,7 @@
     height: 4rem;
     object-fit: cover;    
     margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
 
 }
-
-/* .quadro {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.conteudo {
-    flex: 1;
-}
-
-.dica {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-.yellow-card {
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-} */

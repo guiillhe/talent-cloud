@@ -1,4 +1,4 @@
-:root{
+:root {
     --bs-white: #fff;
     --bs-black: #000;
     --bs-gray: #ccc;
@@ -6,23 +6,19 @@
     --main-light-color: #644491;
     --bs-yellow: #fcb12f;
     --bs-yellow-2: #ee9600;
-    
-
 }
 
-
-*{
-   margin: 0px;
-   padding: 0px;
-   
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    
+
+body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;   
+    font-size: 1rem;
     line-height: 1.5;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,64 +26,65 @@ body{
     overflow-y: hidden;
 }
 
-
-.principal{
-    margin-right: 0;
-    margin-top: 9rem;
-    display: flex;   
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-.plano{    
-    border-radius: 0.6rem;   
-    background-color: var(--main-light-color);
+
+.plano {
     border-radius: 0.6rem;
+    background-color: var(--main-light-color);
     width: 31.25rem;
     padding: 3.12rem;
     margin: 4rem;
-   
 }
-.div-plano{
+
+.div-plano {
     display: flex;
     justify-content: center;
     width: auto;
     height: 20rem;
     background-color: var(--bs-yellow);
-    border : 0.25rem solid var(--main-color);
+    border: 0.25rem solid var(--main-color);
     border-radius: 0.6rem;
     margin: 0.3rem;
-    
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bs-yellow); 
+    background-color: var(--bs-yellow);
     color: var(--main-color);
     border-radius: 35px;
-    margin: 0.62rem 2.5rem 0.62rem 2.5rem;
+    margin: 0.62rem 2.5rem;
     padding: 1rem;
     font-size: 2rem;
-  
 }
 
-.planos{
+.planos {
     display: flex;
     justify-content: center;
     color: var(--bs-yellow);
     font-size: 2.5rem;
 }
-.planos:hover{
+
+.planos:hover {
     color: var(--bs-white);
 }
-.aulas{
+
+.aulas {
     display: flex;
     justify-content: center;
     color: var(--bs-yellow);
     font-size: 1.5rem;
 }
 
-.Img{
-    margin-top: -23rem;    
-    width: 400rem;
+.Img {
+    margin-top: -23rem;
+    width: 400px;
     height: 65rem;
+    object-fit: cover;
 }
