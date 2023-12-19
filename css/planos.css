@@ -64,6 +64,10 @@ body {
     font-size: 2rem;
 }
 
+.button:hover {
+    color: var(--bs-white);
+}
+
 .planos {
     display: flex;
     justify-content: center;
